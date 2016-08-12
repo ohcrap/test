@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Server port="9999"
+<Server port="${base.shutdown.port}"
         shutdown="LJLKSDJLHGHKOASDSAGFVCGAFHKIODSASDFA">
     <Listener className="org.apache.catalina.core.JasperListener"/>
     <Listener className="org.apache.catalina.core.JreMemoryLeakPreventionListener"/>
@@ -55,3 +55,4 @@
                    redirectPort="${bio.https.port}"/>
     </Service>
     <Listener className="org.apache.catalina.core.ThreadLocalLeakPreventionListener"/>
+</Server>
