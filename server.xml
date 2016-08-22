@@ -45,7 +45,7 @@
                        suffix=".txt"/>
             </Host>
         </Engine>
-        <Connector acceptCount="100"
+        <Connector acceptCount="200"
                    connectionTimeout="60000"
                    executor="tomcatThreadPool"
                    maxHttpHeaderSize="8192"
