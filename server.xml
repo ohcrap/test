@@ -22,7 +22,7 @@
                   type="org.apache.catalina.UserDatabase"/>
     </GlobalNamingResources>
     <Service name="Catalina">
-        <Executor maxThreads="400"
+        <Executor maxThreads="300"
                   minSpareThreads="50"
                   name="tomcatThreadPool"
                   namePrefix="tomcat-http--"/>
